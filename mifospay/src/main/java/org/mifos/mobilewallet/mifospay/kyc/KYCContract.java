@@ -13,14 +13,6 @@ import org.mifos.mobilewallet.mifospay.base.BaseView;
 
 public interface KYCContract {
 
-    interface KYCView extends BaseView<KYCPresenter> {
-
-    }
-
-    interface KYCPresenter extends BasePresenter {
-
-    }
-
     interface KYCDescriptionView extends BaseView<KYCDescriptionPresenter> {
 
         void onFetchLevelSuccess(KYCLevel1Details kycLevel1Details);

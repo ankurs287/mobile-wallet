@@ -92,19 +92,19 @@ public class KYCDescriptionFragment extends
     @OnClick(R.id.cv_lvl1)
     public void onLevel1Clicked() {
         replaceFragmentUsingFragmentManager(KYCLevel1Fragment.newInstance(), true,
-                R.id.container_kyc);
+                R.id.container);
     }
 
     @OnClick(R.id.cv_lvl2)
     public void onLevel2Clicked() {
         replaceFragmentUsingFragmentManager(KYCLevel2Fragment.newInstance(), true,
-                R.id.container_kyc);
+                R.id.container);
     }
 
     @OnClick(R.id.cv_lvl3)
     public void onLevel3Clicked() {
         replaceFragmentUsingFragmentManager(KYCLevel3Fragment.newInstance(), true,
-                R.id.container_kyc);
+                R.id.container);
     }
 
 
